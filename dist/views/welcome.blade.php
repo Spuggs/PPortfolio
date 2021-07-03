@@ -50,7 +50,6 @@
 }
 
 .navbar {
-  overflow: ;
   background-color: #000000;
 }
 
@@ -65,7 +64,6 @@
 
 .dropdown {
   float: right;
-  overflow: ;
 }
 
 .dropdown .dropbtn {
