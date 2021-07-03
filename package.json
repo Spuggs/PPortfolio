@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "deploy": "gh-pages -d dist",
     "dev": "npm run development",
     "development": "mix",
     "watch": "mix watch",
@@ -15,6 +16,7 @@
     "lodash": "^4.17.19",
     "postcss": "^8.1.14"
   },
+  "homepage": "https://spuggs.github.io/mywebsite",
   "dependencies": {
     "bootstrap": "^5.0.1",
     "gh-pages": "^3.2.3"
@@ -24,10 +26,9 @@
   "version": "1.0.0",
   "main": "webpack.mix.js",
   "directories": {
-    "deploy": "gh-pages -d dist"
+    "test": "tests"
   },
   "author": "",
   "license": "ISC",
-  "keywords": [],
-  "homepage": "https://spuggs.github.io/mywebsite"
+  "keywords": []
 }
