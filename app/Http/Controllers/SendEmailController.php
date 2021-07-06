@@ -17,17 +17,18 @@ class SendEmailController extends Controller
     {
      $this->validate($request, [
       'name'     =>  'required',
-      'email'  =>  'required|email',
+      'email'  =>  'required',
       'message' =>  'required'
      ]);
 
         $data = array(
             'name'      =>  $request->name,
+            'email'      =>  $request->email,
             'message'   =>   $request->message
         );
 
-     Mail::to('web-tutorial@programmer.net')->send(new SendMail($data));
-     return back()->with('success', 'Thanks for contacting us!');
+     Mail::to('techrapds@gmail.com')->send(new SendMail($data));
+     return back()->with('success', 'Thanks for contacting me!');
 
     }
 }

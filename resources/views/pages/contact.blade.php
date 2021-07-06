@@ -156,6 +156,8 @@
         <img src="images/black.png" class="d-block mx-lg-auto img-fluid"  width="450" height="200" loading="lazy">
       </div>
       <!--Form-->
+      <div class="wrapper">
+        <div class="form">
 
       @if (count($errors) > 0)
   <div class="alert alert-danger">
@@ -177,8 +179,7 @@
   {{ csrf_field() }}
 
 
-  <div class="wrapper">
-    <div class="form">
+  
        <h1 class="display-5 fw-bold lh-1 mb-3">Want to talk?</h1>
           <p class="lead">Please feel free to complete the form.</p>
         <div class="inputfield">
@@ -403,4 +404,3 @@
       <!--Added-->
     </body>
 </html>
-

@@ -153,8 +153,8 @@
       <div class="col-lg-6">
         <h1 class="display-5 fw-bold lh-1 mb-3">Educator. Web Developer.</h1>
         <p class="lead">I’m Ramoi Perrin.
-          <br>A Jamaican, for the last nine years my interest and skills as a developer have grown immensely.
-          <br>I’ve been honing my skills in design, production, and management roles building products for the web while trying to 
+          <br>For the last nine years my interest and skills as a developer have grown immensely.
+          <br>I’ve been honing my skills in Design, Production, and Management. Building products for the web while trying to 
           share my knowledge with colleagues and students.
            </p>
 
@@ -162,8 +162,8 @@
              <br>Titles such as UI Designer, UX Designer, Producer, Front-End and Back-End Developer. 
              <br>I’m also an Educator at the Secondary Level.</p>
 
-             <p class="lead"> I strive to create elegant solutions that surprise and delight users while 
-               <br>keeping complex technical dependencies in mind for implementation. 
+             <p class="lead"> I strive to create elegant solutions that surprise and delight users while keeping complex technical dependencies 
+               <br>in mind for implementation. 
                <br>I’ve worked with large teams with product lifecycles spanning multiple years.</p>
 
                <p class="lead">Need a Website? I’m always open to discussing product design work.</p>
