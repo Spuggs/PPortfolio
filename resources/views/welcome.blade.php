@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        <title>438</title>
+        <title>Ramoi Portfolio</title>
         <link rel="stylesheet" href={{ url('css/app.css') }}>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -150,14 +150,16 @@
       <div class="col-10 col-sm-8 col-lg-6">
         <img src="images/black.png" class="d-block mx-lg-auto img-fluid"  width="450" height="200" loading="lazy">
       </div>
+
+      
       <div class="col-lg-6">
-        <p class="lead">Ramoi Perrin </p>
-        <h1 class="display-5 fw-bold lh-1 mb-3">Educator. Web Developer.</h1>
+        <p class="h1" style="color:rgb(0, 162, 255)";> Ramoi Perrin</p>
+        <p class="h2">Educator. Web Developer.</p>
         <p class="lead">An individual who strives for individual improvement and the improvement of youth at large.</p>
 
            <p class="lead">Improvise Adapt Overcome</p>
 
-             <p class="lead"> Always Growing </p>
+             
              <p class="lead mb-0"><a href="/about" class="text-blue fw-bold">Learn More...</a></p>
       </div>
     </div>

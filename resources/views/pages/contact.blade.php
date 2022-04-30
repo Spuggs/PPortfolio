@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        <title>438</title>
+        <title>Ramoi Portfolio</title>
         <link rel="stylesheet" href={{ url('css/app.css') }}>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -156,7 +156,7 @@
         <img src="images/black.png" class="d-block mx-lg-auto img-fluid"  width="450" height="200" loading="lazy">
       </div>
       <!--Form-->
-      <div class="wrapper">
+       <div class="wrapper">
         <div class="form">
 
       @if (count($errors) > 0)
@@ -180,9 +180,9 @@
 
 
   
-       <h1 class="display-5 fw-bold lh-1 mb-3">Want to talk?</h1>
+       <h1 class="display-5 fw-bold lh-1 mb-3" style="color:rgb(0, 162, 255)";>Want to talk?</h1>
           <p class="lead">Please feel free to complete the form.</p>
-        <div class="inputfield">
+        <div class="inputfield"> 
           <label>Name:</label>
           <input type="text" name = "name" class="form-control"placeholder="Example: John Brown">
        </div> 

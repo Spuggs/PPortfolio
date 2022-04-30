@@ -26,3 +26,4 @@ Route::get('/', 'PagesController@welcome');
 
 Route::get('/contact', 'SendEmailController@index');
 Route::post('/sendemail/send', 'SendEmailController@send');
+

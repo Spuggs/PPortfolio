@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        <title>438</title>
+        <title>Ramoi Portfolio</title>
         <link rel="stylesheet" href={{ url('css/app.css') }}>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -151,8 +151,8 @@
         <img src="images/black.png" class="d-block mx-lg-auto img-fluid"  width="450" height="200" loading="lazy">
       </div>
       <div class="col-lg-6">
-        <h1 class="display-5 fw-bold lh-1 mb-3">Educator. Web Developer.</h1>
-        <p class="lead">I’m Ramoi Perrin.
+        <h1 class="display-5 fw-bold lh-1 mb-3" style="color:rgb(0, 162, 255)";>Educator. Web Developer.</h1>
+        <p class="lead">I'm Ramoi Perrin.
           <br>For the last nine years my interest and skills as a developer have grown immensely.
           <br>I’ve been honing my skills in Design, Production, and Management. Building products for the web while trying to 
           share my knowledge with colleagues and students.
